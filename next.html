@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+            background-color: antiquewhite ;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .allign{
+            width:800px;
+            height:auto;
+            border:2.5px solid black;
+            padding: 2px;
+            text-align: center;
+            justify-content: center;
+            line-height: 25px;
+            background-color: purple;
+            text-align: center;
+            
+          }
+    </style>
+</head>
+<body calss="container">
+    <div class="col-md-4">
+    <div class="allign">
+    <form action="/upload" method="post" encytype=",ultipart/form-data">
+        <label for="fileuplaod"> choose a video to upload</label>
+        <input type="file" ><br>
+        <input id="sub" type="submit" value="fileuplaod">
+        <script>
+            document.getElementById('sub').addEventListener('click', function(event)
+            {
+                event.preventDefault();
+                alert("just a second to de-morfing the video")
+            });
+        </script>
+    </form></div></div>
+</body>
+</html>

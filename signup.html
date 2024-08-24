@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        
+        body, html {
+            background-color: antiquewhite ;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .allign{
+            width:800px;
+            height:auto;
+            border:2.5px solid black;
+            padding: 2px;
+            text-align: center;
+            justify-content: center;
+            line-height: 25px;
+            background-color: purple;
+            text-align: center;
+            
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1>SIGN UP</h1></center>
+        <div class="allign" class="col-md-4">
+            <lable>first name:</lable>
+            <input id="fn" type="text" required><br>
+            <lable>last name:</lable>
+            <input id="ln" type="text" required><br>
+            <lable>mail_id:</lable>
+            <input id="mi" type="text" required><br>
+            <lable>phone-no:</lable>
+            <input id="mn" type="text" required><br>
+            <lable>password:</lable>
+            <input id="p" type="text" required><br>
+            <input type="checkbox">Do You agree
+            <details><summary>Agreement</summary>
+            <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
+To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
+
+</p></details>
+            <button onclick="make()" name="submit">submit</button>
+            <script>
+                function make(){
+
+                alert("Your account is successfully created");}
+
+            </script>
+        </div>
+    </div>
+</body>
+</html>
